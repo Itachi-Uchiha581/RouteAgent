@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "routeagent"
+version = "0.1.0"
+description = ""
+authors = ["Itachi-Uchiha581 <adeebfaiyaz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.38.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
