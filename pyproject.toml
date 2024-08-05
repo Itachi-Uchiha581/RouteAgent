@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "routeagent"
 version = "0.1.0"
-description = ""
+description = "RouteAgent is a lightweight Python library that optimizes AI task performance by intelligently routing prompts to specialized LLM agents. Building on the concept of RouteLLM, it leverages multi-agent systems to enhance accuracy in AI applications."
 authors = ["Itachi-Uchiha581 <adeebfaiyaz@gmail.com>"]
 readme = "README.md"
 
