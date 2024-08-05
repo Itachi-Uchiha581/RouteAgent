@@ -1,5 +1,5 @@
 # 📍 RouteAgent: Route Queries to AI Agents
->RouteAgent is a lightweight Python library that optimizes AI task performance by intelligently routing prompts to specialized LLM agents. Building on the concept of RouteLLM, it leverages multi-agent systems to enhance accuracy in AI applications
+>RouteAgent is a lightweight Python library that optimizes AI task performance by intelligently routing prompts to specialized LLM agents. Building on the concept of RouteLLM, it leverages multi-agent systems to enhance accuracy in AI applications.
 
 ## 🚀 Quick Start
 
