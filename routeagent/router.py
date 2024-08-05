@@ -49,7 +49,7 @@ class Router:
                 "description": items["description"],
             }
 
-    def get_agent(self, agent_num: str) -> Callable:
+    def __get_agent(self, agent_num: str) -> Callable:
         """
         Retrieves the agent function associated with the given agent number.
 
@@ -61,7 +61,7 @@ class Router:
         """
         return self.agents[agent_num]["agent"]
 
-    def execute_agent(self, agent_num: str, prompt: str) -> str:
+    def __execute_agent(self, agent_num: str, prompt: str) -> str:
         """
         Executes the agent function associated with the given agent number using the provided prompt.
 
@@ -72,10 +72,10 @@ class Router:
         Returns:
             str: The result of the agent function execution.
         """
-        agent = self.get_agent(agent_num)
+        agent = self.__get_agent(agent_num)
         return agent(prompt)
 
-    def decide_agent(self, prompt: str) -> str:
+    def __decide_agent(self, prompt: str) -> str:
         """
         Determines the appropriate agent to handle the given prompt and executes it.
 
@@ -101,7 +101,7 @@ class Router:
             ],
             temperature=1,
         )
-        return self.execute_agent(str(response.choices[0].message.content), prompt)
+        return self.__execute_agent(str(response.choices[0].message.content), prompt)
 
     def __call__(self, prompt: str):
         """
@@ -113,4 +113,4 @@ class Router:
         Returns:
             str: The result of the agent function execution.
         """
-        return self.decide_agent(prompt)
+        return self.__decide_agent(prompt)
