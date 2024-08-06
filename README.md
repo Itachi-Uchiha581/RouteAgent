@@ -89,6 +89,9 @@ print(response)
 
 *Note: The Router class can take in any number of agents and descriptions, but the minimum number of agents and descriptions should be 2. The agents and descriptions should be passed in the format of agent_(num) and description_(num). The number given to description and agent should be the same for a particular agent*
 
+## Tutorial
+[**How to Use RouteAgent: A Guide to Intelligent AI Task Routing**](https://medium.com/@adeebfaiyaz/how-to-use-routeagent-a-guide-to-intelligent-ai-task-routing-33be8b6ec9f9)
+
 ## 🤔 Questions? Issues?
 
 If you encounter any problems or have questions about the improvements RouteAgent suggests, feel free to open an issue. 
