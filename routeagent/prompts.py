@@ -15,6 +15,6 @@ class RouteAgentPrompts:
         """
     )
     user_prompt: str = (
-        "Prompt: {prompt} \n{agent_data} \nRemember you must only output a number which corresponds to an agent "
+        "Prompt: {prompt}\n{agent_data} \nRemember you must only output a number which corresponds to an agent "
         "given above based on your understanding of the prompt"
     )
