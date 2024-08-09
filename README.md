@@ -81,7 +81,7 @@ controller = Router(
                   " questions and excels in doing so"
 ) # The Router Class is used to route prompts to the respective agents
 
-response = controller("What is meant by dx/dy?")
+response = controller("What is meant by dy/dx?")
 print(response)
 ```
 > The Router class takes in two types of arguments, agent and description. The agent is the functions that will be called
